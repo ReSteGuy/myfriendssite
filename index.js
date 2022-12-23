@@ -1,3 +1,7 @@
-// comment this is my first javascript code yippee
-console.log('hello world');
-<Infinity:35></Infinity:35>
+var input = document.getElementById("searchTxt");
+
+function clicked() {
+	if (input.value == "aidiren2022") {
+		window.location = "yobbish";
+	}
+}
